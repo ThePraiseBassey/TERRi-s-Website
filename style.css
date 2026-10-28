@@ -1,0 +1,20 @@
+*,
+*, *::before,
+*, *::after{
+    box-sizing: border-box;
+}
+ 
+*{
+    margin:0;
+}
+
+    img,
+    picture,
+    svg{
+        max-width: 100%;
+        display: block;
+    }
+.wrapper{
+    width: mincalc(100% - 48px)
+    margin-inline:auto;
+}
