@@ -9,12 +9,18 @@
 }
 
     img,
-    picture,
+    picture, 
     svg{
         max-width: 100%;
         display: block;
     }
-.wrapper{
-    width: mincalc(100% - 48px)
-    margin-inline:auto;
+.heading{
+    max-width: fit-content;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 100px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
